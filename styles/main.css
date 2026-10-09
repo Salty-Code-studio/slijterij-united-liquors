@@ -2629,3 +2629,4 @@ html body .catgroup a.btn.catgroup__ask:hover { background: #E14E00 !important; 
   html body .findit__b { height: 380px !important; align-self: flex-end; }
   html body .findit__b .bimg { height: calc(100% * var(--h, .9)) !important; }
 }
+html body .section.findit { padding-top: 0 !important; }
