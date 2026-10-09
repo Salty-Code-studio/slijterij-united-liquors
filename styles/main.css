@@ -2455,7 +2455,7 @@ html body .findit__panel { border-radius: 0 !important; }
   .ck-page-grid .ck-grid--4 .ck p, .ck-page-grid .ck-grid--4 .ck small, .ck-page-grid .ck-grid--4 .ck [class*="meta"] { font-size: 10px; letter-spacing: .12em; }
   .ck-page-grid [data-ck-scroll] { display: none !important; }
 }
-.on-light .hero--compact .hero__bg img[src*="visit-street-warm"] { filter: brightness(.55) saturate(1.05) !important; }
+.on-light .hero--compact .hero__bg img[src*="visit-street"] { filter: brightness(.55) saturate(1.05) !important; }
 /* Footer base: credit sits in the middle of one row */
 @media (min-width: 900px) {
   html body .ftr__base { display: grid !important; grid-template-columns: 1fr auto 1fr; align-items: center; column-gap: 28px; }
