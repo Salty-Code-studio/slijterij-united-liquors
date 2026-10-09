@@ -2630,3 +2630,35 @@ html body .catgroup a.btn.catgroup__ask:hover { background: #E14E00 !important; 
   html body .findit__b .bimg { height: calc(100% * var(--h, .9)) !important; }
 }
 html body .section.findit { padding-top: 0 !important; }
+/* Home hero: front-on storefront, text sits in the archway */
+html body .hero-arch .hero-sun__bg img { object-position: 50% 50% !important; filter: none !important; }
+html body .hero-arch .hero-sun__bg::after { display: none !important; }
+@media (min-width: 980px) {
+  html body .hero-arch.is-arched { position: relative; }
+  html body .hero-arch.is-arched .hero-sun__grid { position: static !important; display: block !important; }
+  html body .hero-arch.is-arched .hero-arch__text { position: absolute; z-index: 2; container-type: inline-size; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 8% 7% 4%; box-sizing: border-box; margin: 0 !important; max-width: none !important; }
+  html body .hero-arch.is-arched .hero-arch__text::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(75% 60% at 50% 58%, rgba(14,18,10,.62), rgba(14,18,10,.25) 70%, transparent 100%); pointer-events: none; }
+  html body .hero-arch.is-arched .hero-sun__slogan, html body .hero-arch.is-arched .hero-sun__meta { display: none !important; }
+  html body .hero-arch.is-arched .hero-quote { font-size: clamp(26px, 11.5cqw, 64px) !important; line-height: 1.02 !important; margin: 0 0 3cqw !important; text-shadow: 0 2px 18px rgba(0,0,0,.55); }
+  html body .hero-arch.is-arched .hero-quote .q { position: static !important; }
+  html body .hero-arch.is-arched .hero-cite { justify-content: center; font-size: clamp(11px, 3.3cqw, 15px) !important; margin: 0 0 3cqw !important; flex-wrap: wrap; text-shadow: 0 1px 8px rgba(0,0,0,.6); }
+  html body .hero-arch.is-arched .lede { font-size: clamp(12px, 3.6cqw, 16px) !important; line-height: 1.5 !important; margin: 0 auto 5cqw !important; max-width: 100% !important; text-shadow: 0 1px 10px rgba(0,0,0,.7); }
+  html body .hero-arch.is-arched .btn-row { margin: 0 !important; justify-content: center; gap: 8px !important; flex-wrap: wrap; }
+  html body .hero-arch.is-arched .btn-row .btn { --h: clamp(38px, 11cqw, 50px); padding-inline: clamp(14px, 5cqw, 26px) !important; font-size: clamp(10px, 3cqw, 13px) !important; }
+}
+@media (min-width: 980px) {
+  html body .hero-arch.is-arched .hero-arch__text { padding: 14% 3% 3% !important; }
+  html body .hero-arch.is-arched .hero-quote { font-size: clamp(28px, 12.5cqw, 72px) !important; }
+  html body .hero-arch.is-arched .hero-cite { white-space: nowrap; flex-wrap: nowrap; font-size: clamp(10px, 3cqw, 14px) !important; }
+  html body .hero-arch.is-arched .lede { font-size: clamp(12px, 3.7cqw, 17px) !important; padding-inline: 4%; }
+  html body .hero-arch.is-arched .btn-row { flex-wrap: nowrap; }
+  html body .hero-arch.is-arched .btn-row .btn { font-size: clamp(9px, 2.6cqw, 12px) !important; padding-inline: clamp(10px, 4cqw, 22px) !important; }
+}
+@media (min-width: 980px) and (max-width: 1279px) {
+  html body .hero-arch.is-arched .lede { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; font-size: clamp(11px, 3.4cqw, 15px) !important; }
+  html body .hero-arch.is-arched .hero-arch__text { padding-top: 11% !important; }
+}
+@media (max-width: 979px) {
+  html body .hero-arch .hero-sun__bg img { object-position: 22% 50% !important; }
+  html body .hero-arch .hero-sun__bg::after { display: block !important; content: ""; position: absolute; inset: 0; z-index: 2; background: linear-gradient(180deg, rgba(20,14,8,.78) 0%, rgba(20,14,8,.62) 55%, rgba(20,14,8,.4) 100%) !important; }
+}

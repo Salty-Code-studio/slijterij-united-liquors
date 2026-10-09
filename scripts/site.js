@@ -220,3 +220,23 @@ document.addEventListener('DOMContentLoaded', () => {
   row.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; } }, true);
   row.addEventListener('dragstart', (e) => e.preventDefault());
 })();
+
+/* Home hero: place the text inside the shop's archway (maps photo pixels through object-fit: cover) */
+(() => {
+  const hero = document.querySelector('[data-arch]'); if (!hero) return;
+  const img = hero.querySelector('.hero-sun__bg img'), box = hero.querySelector('.hero-arch__text');
+  const ARCH = { x: 238, y: 215, w: 420, h: 545 }; // archway in the 1672×941 photo
+  const POS = { x: .5, y: .5 };                    // matches object-position below
+  const place = () => {
+    if (innerWidth < 980) { box.removeAttribute('style'); hero.classList.remove('is-arched'); return; }
+    const W = img.naturalWidth || 1672, H = img.naturalHeight || 941;
+    const bg = img.getBoundingClientRect(), hr = hero.getBoundingClientRect();
+    const s = Math.max(bg.width / W, bg.height / H);
+    const ox = bg.left - hr.left + (bg.width - W * s) * POS.x, oy = bg.top - hr.top + (bg.height - H * s) * POS.y;
+    box.style.left = (ox + ARCH.x * s) + 'px'; box.style.top = (oy + ARCH.y * s) + 'px';
+    box.style.width = (ARCH.w * s) + 'px'; box.style.height = (ARCH.h * s) + 'px';
+    hero.classList.add('is-arched');
+  };
+  if (img.complete) place(); else img.addEventListener('load', place);
+  addEventListener('resize', place);
+})();
