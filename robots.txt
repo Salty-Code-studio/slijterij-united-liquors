@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://slijterijunitedliquors.com/sitemap.xml

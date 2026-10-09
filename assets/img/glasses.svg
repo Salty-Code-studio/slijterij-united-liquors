@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- All symbols: viewBox 0 0 200 260. Colours come from CSS custom properties on the <svg> that uses them. -->
+
+  <!-- Rocks / old-fashioned glass -->
+  <symbol id="rocks" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="246" rx="58" ry="5" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--liquid,#B3261E)" d="M53 150 H147 L144 232 Q143 240 135 240 H65 Q57 240 56 232 Z" opacity=".92"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="64" y="128" width="40" height="38" rx="5" transform="rotate(-10 84 147)"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="98" y="136" width="36" height="34" rx="5" transform="rotate(12 116 153)"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M48 112 H152 L147 233 Q146 244 134 244 H66 Q54 244 53 233 Z"/>
+    <path d="M54 232 Q56 240 66 241 H134 Q144 240 146 232" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="5" opacity=".35"/>
+    <rect style="fill:rgba(255,255,255,.22)" x="58" y="120" width="6" height="104" rx="3"/>
+    <path style="fill:var(--garnish,#E8A04A)" d="M128 104 q22 -10 34 6 q-4 6 -10 4 q-10 -10 -24 -2 Z"/>
+  </symbol>
+
+  <!-- Coupe -->
+  <symbol id="coupe" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="246" rx="46" ry="5" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--liquid,#B3261E)" d="M42 98 H158 Q154 146 100 150 Q46 146 42 98 Z" opacity=".95"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M34 88 H166 Q162 156 106 158 V226 Q106 232 112 234 L138 238 Q146 240 146 244 H54 Q54 240 62 238 L88 234 Q94 232 94 226 V158 Q38 156 34 88 Z"/>
+    <path style="fill:rgba(255,255,255,.22)" d="M46 98 Q50 128 72 140 Q56 124 54 98 Z"/>
+    <circle style="fill:var(--garnish,#E8A04A)" cx="152" cy="90" r="16" opacity=".95"/>
+    <circle cx="152" cy="90" r="11" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="1.5"/>
+  </symbol>
+
+  <!-- Martini / V glass -->
+  <symbol id="martini" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="246" rx="44" ry="5" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--liquid,#B3261E)" d="M46 86 H154 L100 152 Z"/>
+    <path style="fill:var(--foam,rgba(243,233,216,.9))" d="M46 86 H154 L146 96 H54 Z"/>
+    <circle cx="88" cy="90" r="4" fill="#3A2216"/><circle cx="100" cy="88" r="4" fill="#3A2216"/><circle cx="112" cy="90" r="4" fill="#3A2216"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M30 74 H170 L104 156 V228 Q104 234 112 236 L136 239 Q144 240 144 244 H56 Q56 240 64 239 L88 236 Q96 234 96 228 V156 Z"/>
+    <path style="fill:rgba(255,255,255,.22)" d="M44 80 L60 80 L96 128 Z" opacity=".6"/>
+  </symbol>
+
+  <!-- Highball -->
+  <symbol id="highball" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="248" rx="40" ry="4" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--liquid,#B3261E)" d="M66 96 H134 V236 Q134 242 128 242 H72 Q66 242 66 236 Z" opacity=".9"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="72" y="104" width="30" height="30" rx="4" transform="rotate(-8 87 119)"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="98" y="136" width="28" height="28" rx="4" transform="rotate(10 112 150)"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="74" y="170" width="28" height="28" rx="4" transform="rotate(4 88 184)"/>
+    <path style="fill:var(--leaf,#5E8C3A)" d="M84 96 q-14 -26 4 -40 q10 18 -4 40 Z M96 94 q8 -28 28 -28 q-6 22 -28 28 Z"/>
+    <circle style="fill:var(--garnish,#E8A04A)" cx="128" cy="96" r="14" opacity=".95"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M60 54 H140 V238 Q140 248 130 248 H70 Q60 248 60 238 Z"/>
+    <rect style="fill:rgba(255,255,255,.22)" x="66" y="62" width="5" height="170" rx="2.5"/>
+    <line x1="118" y1="20" x2="104" y2="230" stroke="rgba(243,233,216,.75)" stroke-width="4" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Wine / balloon (spritz, G&T copa) -->
+  <symbol id="balloon" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="246" rx="44" ry="5" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--liquid,#B3261E)" d="M44 120 H156 Q156 176 100 178 Q44 176 44 120 Z" opacity=".9"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="70" y="124" width="26" height="26" rx="4" transform="rotate(-10 83 137)"/>
+    <rect style="fill:rgba(255,255,255,.16);stroke:rgba(255,255,255,.45);stroke-width:1" x="102" y="132" width="24" height="24" rx="4" transform="rotate(14 114 144)"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M52 40 H148 Q172 110 160 150 Q150 182 104 184 V228 Q104 234 112 236 L136 239 Q144 240 144 244 H56 Q56 240 64 239 L88 236 Q96 234 96 228 V184 Q50 182 40 150 Q28 110 52 40 Z"/>
+    <path style="fill:rgba(255,255,255,.22)" d="M54 56 Q40 110 54 152 Q46 110 62 56 Z"/>
+    <circle style="fill:var(--garnish,#E8A04A)" cx="128" cy="118" r="17" opacity=".95"/>
+    <path d="M128 101 V135 M111 118 H145" stroke="rgba(255,255,255,.35)" stroke-width="1.2"/>
+  </symbol>
+
+  <!-- Copper mug -->
+  <symbol id="mug" viewBox="0 0 200 260">
+    <ellipse cx="96" cy="246" rx="52" ry="5" fill="rgba(0,0,0,.5)"/>
+    <path style="fill:var(--metal,#B8733F)" d="M150 120 Q182 122 182 160 Q182 196 150 196 V182 Q168 182 168 160 Q168 136 150 134 Z"/>
+    <path style="fill:var(--metal,#B8733F)" d="M46 96 H150 L146 232 Q145 242 134 242 H62 Q51 242 50 232 Z"/>
+    <path d="M46 96 H150 L148 112 H48 Z" fill="rgba(255,255,255,.18)"/>
+    <rect x="60" y="104" width="8" height="128" rx="4" fill="rgba(255,255,255,.22)"/>
+    <rect x="80" y="104" width="3" height="128" rx="1.5" fill="rgba(255,255,255,.10)"/>
+    <path style="fill:var(--leaf,#5E8C3A)" d="M88 96 q-12 -26 6 -38 q8 18 -6 38 Z M100 94 q10 -26 30 -24 q-8 20 -30 24 Z"/>
+    <circle style="fill:var(--garnish,#E8A04A)" cx="132" cy="94" r="13"/>
+  </symbol>
+
+  <!-- Kopstootje: tulip jenever glass + small beer -->
+  <symbol id="kopstoot" viewBox="0 0 200 260">
+    <ellipse cx="100" cy="248" rx="80" ry="5" fill="rgba(0,0,0,.5)"/>
+    <!-- beer -->
+    <path d="M104 92 H168 L162 236 Q161 244 152 244 H120 Q111 244 110 236 Z" fill="#D9982C" opacity=".92"/>
+    <path style="fill:var(--foam,rgba(243,233,216,.9))" d="M102 70 Q110 58 124 66 Q134 54 148 64 Q162 56 170 72 V92 H102 Z"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M100 64 H172 L164 238 Q163 248 152 248 H120 Q109 248 108 238 Z"/>
+    <rect style="fill:rgba(255,255,255,.22)" x="114" y="96" width="4" height="136" rx="2"/>
+    <!-- tulip jenever, filled to the brim -->
+    <path d="M30 148 Q30 186 56 194 Q82 186 82 148 Z" fill="#EFE6C8" opacity=".85"/>
+    <path style="fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.55);stroke-width:1.6" d="M28 144 H84 Q86 190 60 198 V232 Q60 238 66 240 L74 242 Q78 244 78 246 H34 Q34 244 38 242 L46 240 Q52 238 52 232 V198 Q26 190 28 144 Z"/>
+    <path style="fill:rgba(255,255,255,.22)" d="M34 152 Q36 178 48 188 Q40 176 40 152 Z"/>
+  </symbol>
+</svg>
